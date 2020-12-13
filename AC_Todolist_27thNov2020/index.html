@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A's To Do List</title>
+
+    <link rel="stylesheet" type="text/css" href="./to-do-list.css">
+  </head>
+  <body>
+     
+    <div id="myDIV" class="header">
+    <h2 style= "font-family:'Trebuchet MS', 'Lucida Sans Unicode';margin:5px">To Do List</h2>
+     <input type="text" id="myInput" placeholder="Title...">
+      <span onclick= "newElement()" class="addBtn">Add</span>
+    </div>
+    <ul id="myUL">
+      <li>Make Breakfast & Pack Lunch</li>
+      <li>Attend Zoom Class</li>
+      <li>Go through classwork</li>
+      <li class="checked">Organise my notes</li>
+      <li>Have Lunch</li>
+      <li>Finish Assignments</li>
+      <li>School Pickup</li>
+      <li>Have Supper</li>
+      <li class = "checked">Clean Dishes & Clean Kitchen</li>
+      <li>Prep for next day meal</li>
+      <li>Read a book </li>
+      <li>Long Day ,Sleep tight</li>
+    </ul>
+     <div>
+     <button type="button" id="clear-list" onclick="removeAll()">Click to Remove All.</button>
+    </div>
+    <script type="text/javascript" src="./to-do-list.js"></script>   
+    </body>
+</html>
