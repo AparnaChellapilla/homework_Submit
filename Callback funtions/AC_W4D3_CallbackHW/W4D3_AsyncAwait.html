@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset = "UTF-8">
+      <meta name = "viewport" content ="width=device-width , initial-scale =1">
+      <title> Assignment</title>
+    </head>
+    <body>
+        <h3>Begins here!</h3>
+        <script>
+            function getRandomNumber(){
+                return new Promise(res => {
+                    setTimeout(() => 
+                    res(Math.round(Math.random() *1000), 500));
+                });
+        
+                async function printRandomNumber() {
+                    const response = await getRandomNumber();
+                    console.log(response);
+                }   
+                printRandomNumber();   
+            }    
+             </script>
+            <p>This Page works</p>
+    </body>
+</html>
