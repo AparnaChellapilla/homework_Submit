@@ -1,0 +1,35 @@
+5 aspects of databases and SQL that you think are important to software and applications :
+==============================================================================================
+
+**the way data is stored in tables and retrieving the data using queries is an interesting feature and the way its processed according to the requirements so its made useful to the users of the data.
+
+** Using the organised data , there can be many ways to use it create mailing lists, preparing reports , identifying client needs and so on...
+
+** Database normalization techniques
+is fascinating to know how it evolved and how the data is normalized.
+
+** database is often referred to as self describing system as it contains the database itself as well as the metadata which defines and describes the relationships between tables in the database.
+
+**in file based system,if a user changes the structure of files, application programs that access the files needs to modified.. whereas in the database system ,the datastructure is stored in the system catalogue , so with one change there , it reflects .. this is often referred to as program-data independence.
+
+
+
+
+ 5 questions you have on databases and SQL :
+==============================================
+
+1.Huge amounts of data how is it stored.
+
+2.Data redundancies.
+
+3.Collection of what is really necessary and what is not ..
+
+4.how is data security and data breaches handled.
+
+5.data recovery.
+
+
+
+
+
+
